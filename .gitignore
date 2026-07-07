@@ -1,0 +1,74 @@
+
+# Secrets / credentials
+.env
+*.env
+credentials.json
+token.json
+client_secret*.json
+evaluation_examples/settings/googledrive/credentials.json
+evaluation_examples/settings/**/credentials.json
+evaluation_examples/settings/**/token.json
+
+# Large local installers
+awscliv2.zip
+
+# Local debug screenshots
+before.png
+after.png
+
+# Local backup files
+*.bak
+*.bak_*
+*.bak_before_*
+*_bak*
+
+# Python / virtualenv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / local machine
+.vscode/
+.DS_Store
+
+# Runtime cache / logs
+cache/
+logs/
+results/
+results_*/
+*.log
+
+# VMware / local VM data
+.vmware_vms
+vmware_vm_data/
+
+# Build / package metadata
+osworld.egg-info/
+build/
+dist/
+
+# Secrets / credentials
+.env
+*.env
+credentials.json
+token.json
+client_secret*.json
+evaluation_examples/settings/googledrive/credentials.json
+evaluation_examples/settings/**/credentials.json
+evaluation_examples/settings/**/token.json
+
+# Large local installers
+awscliv2.zip
+*.zip
+
+# Local debug screenshots
+before.png
+after.png
+
+# Local backup files
+*.bak
+*.bak_*
+*.bak_before_*
+*_bak*
